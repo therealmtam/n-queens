@@ -29,6 +29,9 @@
       this.trigger('change');
     },
 
+    //Places a 1 in the matrix if there is nothing there.
+    //Places a 0 in the matrix if there is a 1 there.
+
     _getFirstRowColumnIndexForMajorDiagonalOn: function(rowIndex, colIndex) {
       return colIndex - rowIndex;
     },
